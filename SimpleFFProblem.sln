@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFFProblem", "SimpleFFProblem\SimpleFFProblem.btproj", "{764D6076-162B-44F5-9608-7162E2568B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{49203DC9-6D63-447D-AE3C-F5A8612A91F1}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Deployment.btdfproj = Deployment\Deployment.btdfproj
+		Deployment\InstallWizard.xml = Deployment\InstallWizard.xml
+		Deployment\License.rtf = Deployment\License.rtf
+		Deployment\PortBindingsMaster.xml = Deployment\PortBindingsMaster.xml
+		Deployment\SettingsFileGenerator.xml = Deployment\SettingsFileGenerator.xml
+		Deployment\UnInstallWizard.xml = Deployment\UnInstallWizard.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{764D6076-162B-44F5-9608-7162E2568B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764D6076-162B-44F5-9608-7162E2568B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764D6076-162B-44F5-9608-7162E2568B2A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{764D6076-162B-44F5-9608-7162E2568B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764D6076-162B-44F5-9608-7162E2568B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764D6076-162B-44F5-9608-7162E2568B2A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
